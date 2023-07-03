@@ -2,8 +2,8 @@ use dep::std;
 
 
 fn game(p: u32, q: u32) -> u32{
-    constrain p < 3;
-    constrain q < 3;
+    assert (p < 3);
+    assert (q < 3);
     let mut res = 0;
     if (p == 0){
         
